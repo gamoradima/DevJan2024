@@ -430,7 +430,9 @@
 	<ItemGroup Label="Standalone package external assembly references" />
 	<ItemGroup Label="Entity Files">
 		<Compile Remove="$(RelativePkgFolderPath)/UsrRealtyFreedomUI/Schemas/UsrRealtyOfferTypeFreedomUI/UsrRealtyOfferTypeFreedomUI.cs" Condition="Exists('$(RelativePkgFolderPath)/UsrRealtyFreedomUI/Schemas/UsrRealtyOfferTypeFreedomUI/UsrRealtyOfferTypeFreedomUI.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/UsrRealtyFreedomUI/Schemas/UsrRealtyVisitFreedomUI/UsrRealtyVisitFreedomUI.cs" Condition="Exists('$(RelativePkgFolderPath)/UsrRealtyFreedomUI/Schemas/UsrRealtyVisitFreedomUI/UsrRealtyVisitFreedomUI.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/UsrRealtyFreedomUI/Schemas/UsrRealtyTypeFreedomUI/UsrRealtyTypeFreedomUI.cs" Condition="Exists('$(RelativePkgFolderPath)/UsrRealtyFreedomUI/Schemas/UsrRealtyTypeFreedomUI/UsrRealtyTypeFreedomUI.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/UsrRealtyFreedomUI/Schemas/UsrGoldPrice/UsrGoldPrice.cs" Condition="Exists('$(RelativePkgFolderPath)/UsrRealtyFreedomUI/Schemas/UsrGoldPrice/UsrGoldPrice.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/UsrRealtyFreedomUI/Schemas/UsrRealtyFreedomUI/UsrRealtyFreedomUI.cs" Condition="Exists('$(RelativePkgFolderPath)/UsrRealtyFreedomUI/Schemas/UsrRealtyFreedomUI/UsrRealtyFreedomUI.cs')" />
 	</ItemGroup>
 	<ItemGroup Label="3rd Party References"></ItemGroup>
